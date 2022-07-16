@@ -8,7 +8,9 @@
 </head>
 <body>
     
-    
+    <h1>Bienvenue sur CM-Flix</h1>
+
+    <p style="color: red"><b><u><i>En Développement, Merci de votre patience.</i></u></b></p>
 
 </body>
 </html>
