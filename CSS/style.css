@@ -1,8 +1,10 @@
 body{
     background-color: black;
 }
+
 *{
     color : white;
+    list-style: none;
 }
 
 *.red{
