@@ -1,7 +1,13 @@
+body{
+    background-color: black;
+}
 *{
     color : white;
 }
 
 *.red{
     color: red;
+}
+*.center{
+    text-align: center;
 }
