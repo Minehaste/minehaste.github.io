@@ -3,6 +3,7 @@ body{
 }
 *{
     color : white;
+    vertical-align: top;
 }
 
 *.red{
