@@ -18,6 +18,6 @@ img.search {
 }
 
 div.left {
-    width: 90%;
+    margin-left: 90%;
     background-color: green;
 }
