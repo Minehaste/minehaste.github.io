@@ -11,3 +11,12 @@ body{
 *.center{
     text-align: center;
 }
+
+img.search {
+    width: 5%;
+    height: 5%;
+}
+
+a.search {
+    text-align: left;
+}
