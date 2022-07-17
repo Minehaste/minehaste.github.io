@@ -19,3 +19,7 @@ img.search {
     height: 5%;
     margin: 0%;
 }
+
+div.left {
+    flex-direction: row;
+}
