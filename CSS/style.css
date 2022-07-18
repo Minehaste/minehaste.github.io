@@ -19,6 +19,7 @@ img.search {
 
 nav ul li {
     display: inline-block;
+    list-style-type: none;
 }
 
 h1.center {
