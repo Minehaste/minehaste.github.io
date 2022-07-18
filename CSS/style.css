@@ -15,7 +15,8 @@ nav ul li a.search img.search {
     width: 5%;
     position: absolute;
     float: right;
-    top: 0%
+    left: 94%;
+    top: 1%;
 }
 
 nav ul li {
