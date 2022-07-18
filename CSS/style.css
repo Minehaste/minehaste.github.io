@@ -34,3 +34,15 @@ nav ul li {
     padding: 12px;
     border: 1px solid #ddd;
 }
+
+#myMenu li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 3%;
+}
+
+#myMenu li a:hover {
+    list-style: none;
+    text-decoration: underline;
+    color: blueviolet;
+}
