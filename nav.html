@@ -23,12 +23,12 @@
     <div class="center">
         <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Rechercher sur WishFlix (veiller à ne pas mettre d'accent)" title="Recherche" style="color: black;">
 
-        <ul id="myMenu">                
+        <div id="myMenu">                
             <li><a href="films/smnowayhome.html" target="_blank">Spider Man No Way Home</a></li>
             <li><a href="" target="_blank"></a></li>
             <li><a href="" target="_blank"></a></li>
             <li><a href="" target="_blank"></a></li>
-        </ul>
+        </div>
     </div>
 
     <br><br><br>
@@ -45,8 +45,8 @@
             var input,filter,ul,li,a,i;
             input = document.getElementById("mySearch");
             filter = input.value.toUpperCase();
-            ul = document.getElementById("myMenu");
-            li = ul.getElementsByTagName("li");
+            div = document.getElementById("myMenu");
+            li = div.getElementsByTagName("li");
             for(i=0;i<li.length;i++){
                 a = li[i].getElementsByTagName("a")[0];
                 if(a.innerHTML.toUpperCase().indexOf(filter)>-1){
