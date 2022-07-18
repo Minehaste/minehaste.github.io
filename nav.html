@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche</title>
+</head>
+<body>
+    
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Rechercher sur WishFlix (veiller à ne pas mettre d'accent)" title="Recherche">
+
+    <ul id="myMenu">                
+        <li style="display: none;"><a href="film/actionaventuredrame/afterearth" target="_blank">After Earth</a></li>
+        <li style="display: none;"><a href="film/actionaventuredrame/avatar" target="_blank">Avatar</a></li>
+        <li style="display: none;"><a href="film/actionaventuredrame/creed" target="_blank">Creed</a></li>
+        <li style="display: none;"><a href="film/actionaventuredrame/darkshadows" target="_blank">Dark Shadow</a></li>
+    </ul>
+
+
+    <script>
+
+        // var myFunction;
+        function myFunction(){
+            var input,filter,ul,li,a,i;
+            input = document.getElementById("mySearch");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myMenu");
+            li = ul.getElementsByTagName("li");
+            for(i=0;i<li.length;i++){
+                a = li[i].getElementsByTagName("a")[0];
+                if(a.innerHTML.toUpperCase().indexOf(filter)>-1){
+                    li[i].style.display="";
+                }
+                else{
+                    li[i].style.display="none";
+                }
+            }
+        }
+        function pani(){
+            var a,b,c;
+            a=5;
+            b=5;
+            c=a+b;
+        }
+
+    </script>
+</body>
+</html>
