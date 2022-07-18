@@ -38,17 +38,18 @@ nav ul li {
 #myMenu li{
     list-style-type: none;
     text-decoration: none;
-    padding: 3%;
+    padding: 2%;
 }
 
 #myMenu li a{
     list-style-type: none;
     text-decoration: none;
-    padding: 3%;
+    padding: 2%;
 }
 
 #myMenu li a:hover {
     list-style: none;
     text-decoration: underline;
     color: blueviolet;
+    background-color: darkslategray;
 }
