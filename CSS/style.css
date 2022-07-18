@@ -11,7 +11,7 @@ body{
     color: red;
 }
 
-img.search {
+div.right img.search {
     width: 5%;
     height: 5%;
     margin: 0%;
