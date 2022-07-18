@@ -21,5 +21,5 @@ img.search {
 }
 
 div.left {
-    flex-direction: row;
+    display: inline-block;
 }
