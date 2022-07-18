@@ -14,7 +14,7 @@ body{
 nav ul li a.search img.search {
     width: 5%;
     position: absolute;
-    padding-left: 90%;
+    float: right;
     top: 0%
 }
 
