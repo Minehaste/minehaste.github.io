@@ -41,6 +41,12 @@ nav ul li {
     padding: 3%;
 }
 
+#myMenu li a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 3%;
+}
+
 #myMenu li a:hover {
     list-style: none;
     text-decoration: underline;
