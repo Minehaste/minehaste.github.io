@@ -11,7 +11,7 @@ body{
     color: red;
 }
 
-div.right img.search {
+img.search {
     width: 5%;
     height: 5%;
     margin: 0%;
@@ -21,10 +21,6 @@ div.header {
     display: inline-block;
 }
 
-.center h1 {
+h1.center {
     text-align: center;
-}
-
-.right a {
-    float: right;
 }
