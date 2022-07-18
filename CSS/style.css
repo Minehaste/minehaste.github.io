@@ -24,6 +24,6 @@ nav ul li {
     list-style-type: none;
 }
 
-h1.center {
+*.center {
     text-align: center;
 }
