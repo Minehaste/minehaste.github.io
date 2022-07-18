@@ -44,7 +44,7 @@ nav ul li {
 #myMenu li a{
     list-style-type: none;
     text-decoration: none;
-    padding: 2%;
+    padding: 1%;
 }
 
 #myMenu li:hover {
