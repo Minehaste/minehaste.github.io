@@ -10,9 +10,6 @@ body{
 *.red{
     color: red;
 }
-*.center{
-    text-align: center;
-}
 
 img.search {
     width: 5%;
@@ -20,6 +17,14 @@ img.search {
     margin: 0%;
 }
 
-div.left {
+div.header {
     display: inline-block;
+}
+
+.center h1 {
+    text-align: center;
+}
+
+.right a {
+    float: right;
 }
