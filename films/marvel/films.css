@@ -1,3 +1,73 @@
+body{
+    background-color: black;
+}
+
+*{
+    color : white;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*.red{
+    color: red;
+}
+
+nav ul li a.search img.search {
+    width: 4%;
+    position: absolute;
+    float: right;
+    left: 94%;
+    top: 1%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+*.center {
+    text-align: center;
+}
+
+#mySearch {
+    width: 97%;
+    font-size: 25px;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+#myMenu li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 1%;
+}
+
+#myMenu li a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 1%;
+}
+
+#myMenu li:hover {
+    list-style: none;
+    text-decoration: underline;
+    background-color: #686868;
+}
+
+*.btn {
+    width: 15%;
+    height: 10%;
+    text-align: center;
+}
+
+*.btn:hover{
+    width: 25%;
+    height: 20%;
+    text-align: center;
+}
+  
+  
   /* MAIN CONTIANER */
   .main-container {
     padding: 30px;
