@@ -56,13 +56,13 @@ nav ul li {
 }
 
 *.btn {
-    width: 10%;
-    height: 15%;
+    width: 15%;
+    height: 10%;
     text-align: center;
 }
 
 *.btn:hover{
-    width: 20%;
-    height: 25%;
+    width: 25%;
+    height: 20%;
     text-align: center;
 }
