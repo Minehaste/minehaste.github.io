@@ -62,3 +62,7 @@ nav ul li {
 *.btn:hover{
     width: 20%;
 }
+*.centre {
+    font-size: 5%;
+    left: 2.5%;
+}
