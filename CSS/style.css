@@ -56,3 +56,11 @@ nav ul li {
     text-decoration: underline;
     background-color: #686868;
 }
+
+*.btn {
+    width: 10%;
+}
+
+*.btn:hover{
+    width: 50%;
+}
